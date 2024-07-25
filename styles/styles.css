@@ -4,6 +4,9 @@
   background: url("https://media.gq-magazine.co.uk/photos/6422b386a74758f5d02d2b44/master/pass/How-to-train-for-a-marathon-hp-a.jpg") center center no-repeat;
   text-transform: uppercase;
   text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 .title {
@@ -13,6 +16,33 @@
 .title_left {
   color: #fff;
   font-size: 36px;
+}
+
+.feed-form {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+.feed-form input {
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 15px;
+  border: 0;
+  padding: 0 20px;
+  color: #4b4b4b;
+  font-weight: 300;
+}
+.feed-form input:nth-child(3) {
+  margin-bottom: 20px;
+}
+.feed-form button {
+  border-radius: 5px;
+  background-color: #b31e1e;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 20px;
 }
 
 * {
